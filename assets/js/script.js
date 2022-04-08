@@ -1,5 +1,3 @@
-const tags = document.querySelector('.data-tab-content');
-
 var aboutContent = document.getElementById('about-content');
 var aboutTab = document.getElementById('about-tab');
 
