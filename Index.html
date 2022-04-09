@@ -6,16 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Home - Soft Reserve</title>
+    <title>Home - North Park Caf&eacute;</title>
 </head>
 
 <body>
     <header>
         <a href="/">
-            <img src="./assets/images/logo.png" alt="Soft Reserve logo">
+            <img src="./assets/images/logo.png" alt="Soft Reserve logo" class="logo logo-large">
             <div>
-                <h1>Soft Reservation</h1>
-                <p>Online Booking Platform</p>
+                <h1>North Park Caf&eacute;</h1>
+                <p>Online Reservation Booking Platform</p>
             </div>
         </a>
 
@@ -27,13 +27,13 @@
                     </a>
                 </li>
                 <li>
-                    <a href="#FAQs">
+                    <a href="#faq">
                         FAQs
                     </a>
                 </li>
                 <li>
                     <a href="#contact">
-                        Get In Touch
+                        Contact
                     </a>
                 </li>
             </ul>
@@ -59,38 +59,19 @@
         -->
     </header>          
 
-    <section class="hero-wrap">
+    <div class="hero-wrap">
         <div class="hero-cta">
             <h2>Looking to make a reservation?</h2>
-            <p>Save time by booking online and get started below!</p>
-            <a href="#reservation-form"><button>BOOK NOW!</button></a>
+            <p>Give us a call or skip the hold and book online!</p>
+            <a href="#reservation-form"><button>BOOK ONLINE</button></a>
+            <a href="tel:555-666-7777"><button>CALL US</button></a>
         </div>
-    </section>
+    </div>
 
     <main>
-        <section id="reservation-form">
-            
-        </section>
-
-
-        <section id="about">
-            <h1>About</h1>
-            <div>
-                <p>We created an easier way for you to book your appointments without having to waste time on the phone trying to get through!</p>
-            </div>
-        </section>
-
-        <selection id="contact"> 
-            <h1>Contact</h1>
-            <div>
-                <p>softreservations@gmail.com</p>
-            </div>
-        </selection>
-
         <section id="reservations">
-            <h1>Reservations</h1>
-            <h2>Book Your Table Now</h2>
-            <div id="card-container">
+            <h2 class="section-title">New Reservations</h2>
+            <div id="reservation-form" class="section-content">
                 <div id="glass">
                 </div>
 
@@ -137,7 +118,54 @@
             </div>
         </section>
 
-        <section id="hero">
+        <section id="faq">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="section-content">
+                <h3>Here are solutions to commonly asked questions regarding reservation bookings.</h3>
+                <ul>
+                    <li>
+                        <h3>How do I use the reservation form?</h3>
+                        <p>Start by filling out contact information for the reservee and attending party. Select an availble booking time & date including any comments or special requests and submit. It's that easy!</p>
+                    </li>
+                    <li>
+                        <h3>Lorem ipsum dolor sit amet.</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam nesciunt perspiciatis eveniet atque. Incidunt soluta dolore quae cupiditate aspernatur nostrum, quibusdam excepturi voluptatem repudiandae maiores!</p>
+                    </li>
+                    <li>
+                        <h3>Lorem ipsum dolor sit amet.</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam nesciunt perspiciatis eveniet atque. Incidunt soluta dolore quae cupiditate aspernatur nostrum, quibusdam excepturi voluptatem repudiandae maiores!</p>
+                    </li>
+                    <li>
+                        <h3>Lorem ipsum dolor sit amet.</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam nesciunt perspiciatis eveniet atque. Incidunt soluta dolore quae cupiditate aspernatur nostrum, quibusdam excepturi voluptatem repudiandae maiores!</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contact"> 
+            <h2 class="section-title">Contact</h2>
+            <div class="section-content">
+                <h3>North Park Caf&eacute;</h3>
+                <p>
+                    Looking to host an event?<br>
+                    Reach out to request more information about our packages.
+                </p>
+                <address>
+                    <div>
+                        123 Dream St<br>
+                        Cloudtown, FL 12345<br>
+                    </div>
+                    <div>
+                        P: <a href="tel:555-666-7777">800.222.CAFE (800.222.2233)</a><br>
+                        E: <a href="mailto:reservations@NPcafe.io">Reservations@NPcafe.io</a>
+                    </div>
+                </address>
+            </div>
+        </section>
+
+        <!-- LEGACY CODE 
+            <section id="hero">
             <div id="container">
                 <div id="column">
                     <img src="./assets/images/oil.jpg" alt="Oil" style="width: 30%;">
@@ -149,11 +177,16 @@
                     <img src="./assets/images/restau.jpg" alt="restau" style="width: 30%;">
                 </div>
             </div>
-        </section>
+        </section> -->
     </main>
     
-    <footer class="site-footer">
-        <div id="footer1"><p>LET US MAKE YOUR DAY EASIER </p></div>
+    <footer>
+        <h3>Made by Mehran M. & Shessana B.</h3>
+        <img src="./assets/images/logo.png" alt="Soft Reserve Logo" class="logo logo-sm">
+        <div>
+            <a href="#">Read Our Privacy Policy</a><br/>
+            &copy; 2022 Soft Reservations Co.
+        </div>
     </footer>
 
     <script src="./assets/js/script.js"></script>
