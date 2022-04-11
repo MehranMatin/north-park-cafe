@@ -198,6 +198,7 @@ footer h2 {
 }
 
 .hero-cta button {
+  width: 175px;
   color: var(--primary-color);
   background-color: var(--secondary-color);
   border: none;
@@ -214,6 +215,13 @@ footer h2 {
 
 .faq ul {
 }
+
+.faq .hidden {
+  display: none;
+}
+
+.faq .visible {
+  display: block;
 
 /* CONTACT SECTION */
 #contact .section-content address {
@@ -262,13 +270,7 @@ form input[type = submit]:hover{
   .card-container{
     grid-template-columns: 100%;
   }
-}.hidden {
-  display: none;
-
 }
-
-.visible {
-  display: block;
 }
 
 .tabs {
