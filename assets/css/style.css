@@ -209,19 +209,32 @@ footer h2 {
 }
 
 /* FAQ SECTION */
-.faq {
-  padding: 20px;
+
+.faq li {
+  margin: 20px auto;
 }
 
-.faq ul {
-}
-
-.faq .hidden {
+/* .faq .hidden {
   display: none;
-}
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+} */
 
 .faq .visible {
   display: block;
+}
+
+.faq .modal {
+
+}
+
+.faq span.modalClose {
+
+}
 
 /* CONTACT SECTION */
 #contact .section-content address {

@@ -71,14 +71,22 @@
     <main>
         <section id="reservations" class="reservations">
             <h2 class="section-title">New Reservations</h2>
-            <div id="reservation-form" class="section-content">
-                <div id="glass">
-                </div>
+            
+            <div id="bookingForm" class="section-content">
 
                 <div id="card-content">
                     <h3>Reserve</h3>
                     <form>
                         <div id="form-row">
+                            <div id="form-row">
+                                <input type="text" name="user-name" placeholder="Reservee Name">
+                                <input type="tel" name="user-tel" placeholder="Phone Number">
+                                
+                                <label for="booking-date">Please enter a booking date and time.</label>
+                                <input type="datetime" name="booking-date" id="booking-date">
+                                
+                            </div>
+
                             <select name="days">
                                 <option value="day-select">Select Day</option>
                                 <option value="sunday">Sunday</option>
@@ -92,20 +100,16 @@
 
                             <select name="hours">
                                 <option value="hour-select">Select Hour Select</option>
-                                <option value="10">10: 00</option>
-                                <option value="10">10: 30</option>
-                                <option value="10">11: 00</option>
-                                <option value="10">11: 30</option>
-                                <option value="10">12: 00</option>
-                                <option value="10">12: 30</option>
-                                <option value="10">01: 00</option>
+                                <option value="10">10:00</option>
+                                <option value="10">10:30</option>
+                                <option value="10">11:00</option>
+                                <option value="10">11:30</option>
+                                <option value="10">12:00</option>
+                                <option value="10">12:30</option>
+                                <option value="10">01:00</option>
                             </select>
                         </div>
-                        <div id="form-row">
-                            <input type="text" placeholder="Full Name">
-                            <input type="text" placeholder="Phone Number">
 
-                        </div>
 
                         <div id="form-row">
                             <input type="number" placeholder="How Many Person?" min="1">
@@ -121,23 +125,24 @@
         <section id="faq" class="faq">
             <h2 class="section-title">Frequently Asked Questions</h2>
             <div class="section-content">
-                <h3>Here are solutions to commonly asked questions regarding reservation bookings.</h3>
+                <h3>
+                    Here are solutions to commonly asked questions regarding reservation bookings.</h3>
                 <ul>
                     <li>
-                        <h3 class="faqQuestion">How do I use the reservation form?</h3>
-                        <p class="faqAnswer hidden">Start by filling out contact information for the reservee and attending party. Select an availble booking time & date including any comments or special requests and submit. It's that easy!</p>
+                        <h4 class="faqQuestion">How do I use the reservation form?</h4>
+                        <p class="faqAnswer hidden">Start by filling out contact information for the reservee and attending party. Select an availble time & date including any comments or special requests and submit. It's that easy!<span class="closeModal">&times;</span></p>
                     </li>
                     <li>
-                        <h3 class="faqQuestion">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi, magni?</h3>
-                        <p class="faqAnswer hidden">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam nesciunt perspiciatis eveniet atque. Incidunt soluta dolore quae cupiditate aspernatur nostrum, quibusdam excepturi voluptatem repudiandae maiores!</p>
+                        <h4 class="faqQuestion">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi, magni?</h4>
+                        <p class="faqAnswer hidden">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam nesciunt perspiciatis eveniet atque. Incidunt soluta dolore quae cupiditate aspernatur nostrum, quibusdam excepturi voluptatem repudiandae maiores!<span class="closeModal">&times;</span></p>
                     </li>
                     <li>
-                        <h3 class="faqQuestion">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi, magni?</h3>
-                        <p class="faqAnswer hidden">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam nesciunt perspiciatis eveniet atque. Incidunt soluta dolore quae cupiditate aspernatur nostrum, quibusdam excepturi voluptatem repudiandae maiores!</p>
+                        <h4 class="faqQuestion">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi, magni?</h4>
+                        <p class="faqAnswer hidden">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam nesciunt perspiciatis eveniet atque. Incidunt soluta dolore quae cupiditate aspernatur nostrum, quibusdam excepturi voluptatem repudiandae maiores!<span class="closeModal">&times;</span></p>
                     </li>
                     <li>
-                        <h3 class="faqQuestion">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi, magni?</h3>
-                        <p class="faqAnswer hidden">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam nesciunt perspiciatis eveniet atque. Incidunt soluta dolore quae cupiditate aspernatur nostrum, quibusdam excepturi voluptatem repudiandae maiores!</p>
+                        <h4 class="faqQuestion">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi, magni?</h4>
+                        <p class="faqAnswer hidden">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam nesciunt perspiciatis eveniet atque. Incidunt soluta dolore quae cupiditate aspernatur nostrum, quibusdam excepturi voluptatem repudiandae maiores!<span class="closeModal">&times;</span></p>
                     </li>
                 </ul>
             </div>
