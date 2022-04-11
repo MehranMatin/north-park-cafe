@@ -1,4 +1,4 @@
-# Soft Reserve
+# North Park Cafe
 
 ## Purpose
 A website that offers a simple solution for handling reservations online.
@@ -9,7 +9,7 @@ A website that offers a simple solution for handling reservations online.
 * JAVASCRIPT
 
 ## Website
-https://lernantino.github.io/reservation-station/
+https://mehranmatin.github.io/north-park-cafe/
 
 ## Contribution
 Mehran Matin
