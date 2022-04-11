@@ -1,4 +1,4 @@
-# Soft Reserve
+# North-Park-Cafe
 
 ## Purpose
 A website that offers a simple solution for handling reservations online.
